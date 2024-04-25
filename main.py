@@ -90,3 +90,5 @@ if st.button('Click Here to Analyze'):
                     st.write(block.text)
         except Exception as e:
             st.error(f"Failed to read the response: {e}")
+
+# lol
