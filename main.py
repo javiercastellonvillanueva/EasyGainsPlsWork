@@ -7,7 +7,7 @@ import os
 from anthropic import Anthropic
 
 # Environment variable for API Key
-api_key = "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"
+api_key = st.secrets["apikey"]
 client = Anthropic(api_key=api_key)
 
 # Function to encode the image from an uploaded file or taken picture
